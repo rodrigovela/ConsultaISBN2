@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA61BA6A1D73C96100E0E128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61BA691D73C96100E0E128 /* AppDelegate.swift */; };
+		FA61BA6C1D73C96100E0E128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61BA6B1D73C96100E0E128 /* ViewController.swift */; };
+		FA61BA6F1D73C96100E0E128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA61BA6D1D73C96100E0E128 /* Main.storyboard */; };
+		FA61BA711D73C96100E0E128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA61BA701D73C96100E0E128 /* Assets.xcassets */; };
+		FA61BA741D73C96100E0E128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA61BA721D73C96100E0E128 /* LaunchScreen.storyboard */; };
+		FA61BA7F1D73C96100E0E128 /* ConsultaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61BA7E1D73C96100E0E128 /* ConsultaTests.swift */; };
+		FA61BA8A1D73C96100E0E128 /* ConsultaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61BA891D73C96100E0E128 /* ConsultaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA61BA7B1D73C96100E0E128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA61BA5E1D73C96100E0E128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA61BA651D73C96100E0E128;
+			remoteInfo = Consulta;
+		};
+		FA61BA861D73C96100E0E128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA61BA5E1D73C96100E0E128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA61BA651D73C96100E0E128;
+			remoteInfo = Consulta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA61BA661D73C96100E0E128 /* Consulta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Consulta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA61BA691D73C96100E0E128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA61BA6B1D73C96100E0E128 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA61BA6E1D73C96100E0E128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA61BA701D73C96100E0E128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA61BA731D73C96100E0E128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA61BA751D73C96100E0E128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA61BA7A1D73C96100E0E128 /* ConsultaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsultaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA61BA7E1D73C96100E0E128 /* ConsultaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaTests.swift; sourceTree = "<group>"; };
+		FA61BA801D73C96100E0E128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA61BA851D73C96100E0E128 /* ConsultaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsultaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA61BA891D73C96100E0E128 /* ConsultaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaUITests.swift; sourceTree = "<group>"; };
+		FA61BA8B1D73C96100E0E128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA61BA631D73C96100E0E128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61BA771D73C96100E0E128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61BA821D73C96100E0E128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA61BA5D1D73C96100E0E128 = {
+			isa = PBXGroup;
+			children = (
+				FA61BA681D73C96100E0E128 /* Consulta */,
+				FA61BA7D1D73C96100E0E128 /* ConsultaTests */,
+				FA61BA881D73C96100E0E128 /* ConsultaUITests */,
+				FA61BA671D73C96100E0E128 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA61BA671D73C96100E0E128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA61BA661D73C96100E0E128 /* Consulta.app */,
+				FA61BA7A1D73C96100E0E128 /* ConsultaTests.xctest */,
+				FA61BA851D73C96100E0E128 /* ConsultaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA61BA681D73C96100E0E128 /* Consulta */ = {
+			isa = PBXGroup;
+			children = (
+				FA61BA691D73C96100E0E128 /* AppDelegate.swift */,
+				FA61BA6B1D73C96100E0E128 /* ViewController.swift */,
+				FA61BA6D1D73C96100E0E128 /* Main.storyboard */,
+				FA61BA701D73C96100E0E128 /* Assets.xcassets */,
+				FA61BA721D73C96100E0E128 /* LaunchScreen.storyboard */,
+				FA61BA751D73C96100E0E128 /* Info.plist */,
+			);
+			path = Consulta;
+			sourceTree = "<group>";
+		};
+		FA61BA7D1D73C96100E0E128 /* ConsultaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA61BA7E1D73C96100E0E128 /* ConsultaTests.swift */,
+				FA61BA801D73C96100E0E128 /* Info.plist */,
+			);
+			path = ConsultaTests;
+			sourceTree = "<group>";
+		};
+		FA61BA881D73C96100E0E128 /* ConsultaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA61BA891D73C96100E0E128 /* ConsultaUITests.swift */,
+				FA61BA8B1D73C96100E0E128 /* Info.plist */,
+			);
+			path = ConsultaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA61BA651D73C96100E0E128 /* Consulta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA61BA8E1D73C96100E0E128 /* Build configuration list for PBXNativeTarget "Consulta" */;
+			buildPhases = (
+				FA61BA621D73C96100E0E128 /* Sources */,
+				FA61BA631D73C96100E0E128 /* Frameworks */,
+				FA61BA641D73C96100E0E128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Consulta;
+			productName = Consulta;
+			productReference = FA61BA661D73C96100E0E128 /* Consulta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA61BA791D73C96100E0E128 /* ConsultaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA61BA911D73C96100E0E128 /* Build configuration list for PBXNativeTarget "ConsultaTests" */;
+			buildPhases = (
+				FA61BA761D73C96100E0E128 /* Sources */,
+				FA61BA771D73C96100E0E128 /* Frameworks */,
+				FA61BA781D73C96100E0E128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA61BA7C1D73C96100E0E128 /* PBXTargetDependency */,
+			);
+			name = ConsultaTests;
+			productName = ConsultaTests;
+			productReference = FA61BA7A1D73C96100E0E128 /* ConsultaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA61BA841D73C96100E0E128 /* ConsultaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA61BA941D73C96100E0E128 /* Build configuration list for PBXNativeTarget "ConsultaUITests" */;
+			buildPhases = (
+				FA61BA811D73C96100E0E128 /* Sources */,
+				FA61BA821D73C96100E0E128 /* Frameworks */,
+				FA61BA831D73C96100E0E128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA61BA871D73C96100E0E128 /* PBXTargetDependency */,
+			);
+			name = ConsultaUITests;
+			productName = ConsultaUITests;
+			productReference = FA61BA851D73C96100E0E128 /* ConsultaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA61BA5E1D73C96100E0E128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rodrigo Velazquez";
+				TargetAttributes = {
+					FA61BA651D73C96100E0E128 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FA61BA791D73C96100E0E128 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA61BA651D73C96100E0E128;
+					};
+					FA61BA841D73C96100E0E128 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA61BA651D73C96100E0E128;
+					};
+				};
+			};
+			buildConfigurationList = FA61BA611D73C96100E0E128 /* Build configuration list for PBXProject "Consulta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA61BA5D1D73C96100E0E128;
+			productRefGroup = FA61BA671D73C96100E0E128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA61BA651D73C96100E0E128 /* Consulta */,
+				FA61BA791D73C96100E0E128 /* ConsultaTests */,
+				FA61BA841D73C96100E0E128 /* ConsultaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA61BA641D73C96100E0E128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61BA741D73C96100E0E128 /* LaunchScreen.storyboard in Resources */,
+				FA61BA711D73C96100E0E128 /* Assets.xcassets in Resources */,
+				FA61BA6F1D73C96100E0E128 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61BA781D73C96100E0E128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61BA831D73C96100E0E128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA61BA621D73C96100E0E128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61BA6C1D73C96100E0E128 /* ViewController.swift in Sources */,
+				FA61BA6A1D73C96100E0E128 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61BA761D73C96100E0E128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61BA7F1D73C96100E0E128 /* ConsultaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA61BA811D73C96100E0E128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA61BA8A1D73C96100E0E128 /* ConsultaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA61BA7C1D73C96100E0E128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA61BA651D73C96100E0E128 /* Consulta */;
+			targetProxy = FA61BA7B1D73C96100E0E128 /* PBXContainerItemProxy */;
+		};
+		FA61BA871D73C96100E0E128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA61BA651D73C96100E0E128 /* Consulta */;
+			targetProxy = FA61BA861D73C96100E0E128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA61BA6D1D73C96100E0E128 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA61BA6E1D73C96100E0E128 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA61BA721D73C96100E0E128 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA61BA731D73C96100E0E128 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA61BA8C1D73C96100E0E128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA61BA8D1D73C96100E0E128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA61BA8F1D73C96100E0E128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Consulta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.ipn.cic.Rodrigo.Consulta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA61BA901D73C96100E0E128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Consulta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.ipn.cic.Rodrigo.Consulta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA61BA921D73C96100E0E128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConsultaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.ipn.cic.Rodrigo.ConsultaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consulta.app/Consulta";
+			};
+			name = Debug;
+		};
+		FA61BA931D73C96100E0E128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConsultaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.ipn.cic.Rodrigo.ConsultaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consulta.app/Consulta";
+			};
+			name = Release;
+		};
+		FA61BA951D73C96100E0E128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ConsultaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.ipn.cic.Rodrigo.ConsultaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Consulta;
+			};
+			name = Debug;
+		};
+		FA61BA961D73C96100E0E128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ConsultaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.ipn.cic.Rodrigo.ConsultaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Consulta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA61BA611D73C96100E0E128 /* Build configuration list for PBXProject "Consulta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA61BA8C1D73C96100E0E128 /* Debug */,
+				FA61BA8D1D73C96100E0E128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA61BA8E1D73C96100E0E128 /* Build configuration list for PBXNativeTarget "Consulta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA61BA8F1D73C96100E0E128 /* Debug */,
+				FA61BA901D73C96100E0E128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA61BA911D73C96100E0E128 /* Build configuration list for PBXNativeTarget "ConsultaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA61BA921D73C96100E0E128 /* Debug */,
+				FA61BA931D73C96100E0E128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA61BA941D73C96100E0E128 /* Build configuration list for PBXNativeTarget "ConsultaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA61BA951D73C96100E0E128 /* Debug */,
+				FA61BA961D73C96100E0E128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA61BA5E1D73C96100E0E128 /* Project object */;
+}
