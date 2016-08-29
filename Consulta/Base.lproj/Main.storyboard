@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Consulta" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,92 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consulta Libro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4im-xf-KT1">
+                                <rect key="frame" x="20" y="41" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingresa ISBN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFc-eX-wSm">
+                                <rect key="frame" x="20" y="89" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="yoV-g1-7i9">
+                                <rect key="frame" x="20" y="118" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3RW-Fx-2TZ">
+                                <rect key="frame" x="20" y="251" width="560" height="206"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consulta" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnK-qF-TAI">
+                                <rect key="frame" x="20" y="222" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpX-Oh-NTo">
+                                <rect key="frame" x="20" y="184" width="560" height="30"/>
+                                <state key="normal" title="Search"/>
+                                <connections>
+                                    <action selector="search:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NIh-em-e0R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6U-oA-03e">
+                                <rect key="frame" x="20" y="465" width="560" height="30"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearTextView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hGo-58-NGl"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F6U-oA-03e" firstAttribute="leading" secondItem="3RW-Fx-2TZ" secondAttribute="leading" id="1bS-VD-tKU"/>
+                            <constraint firstItem="3RW-Fx-2TZ" firstAttribute="top" secondItem="nnK-qF-TAI" secondAttribute="bottom" constant="8" symbolic="YES" id="3X0-po-R2x"/>
+                            <constraint firstItem="aFc-eX-wSm" firstAttribute="leading" secondItem="yoV-g1-7i9" secondAttribute="leading" id="3Zv-hq-4Ll"/>
+                            <constraint firstItem="nnK-qF-TAI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="75t-cf-YTU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3RW-Fx-2TZ" secondAttribute="bottom" constant="143" id="BaA-BY-ynQ"/>
+                            <constraint firstItem="bpX-Oh-NTo" firstAttribute="centerX" secondItem="4im-xf-KT1" secondAttribute="centerX" id="CWR-2l-kLf"/>
+                            <constraint firstItem="4im-xf-KT1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E4a-zQ-B8T"/>
+                            <constraint firstItem="4im-xf-KT1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="F0a-Be-GW9"/>
+                            <constraint firstItem="yoV-g1-7i9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HJ6-PY-shr"/>
+                            <constraint firstItem="yoV-g1-7i9" firstAttribute="centerX" secondItem="4im-xf-KT1" secondAttribute="centerX" id="Ktw-Ak-YEs"/>
+                            <constraint firstItem="3RW-Fx-2TZ" firstAttribute="centerX" secondItem="4im-xf-KT1" secondAttribute="centerX" id="NHi-uv-3B7"/>
+                            <constraint firstItem="aFc-eX-wSm" firstAttribute="top" secondItem="4im-xf-KT1" secondAttribute="bottom" constant="27" id="OEK-wU-vOv"/>
+                            <constraint firstItem="bpX-Oh-NTo" firstAttribute="top" secondItem="yoV-g1-7i9" secondAttribute="bottom" constant="36" id="OKv-NU-jUv"/>
+                            <constraint firstItem="nnK-qF-TAI" firstAttribute="leading" secondItem="3RW-Fx-2TZ" secondAttribute="leading" id="ToQ-mw-l04"/>
+                            <constraint firstItem="aFc-eX-wSm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UW6-4w-aIh"/>
+                            <constraint firstItem="F6U-oA-03e" firstAttribute="top" secondItem="3RW-Fx-2TZ" secondAttribute="bottom" constant="8" symbolic="YES" id="XOd-Ji-37z"/>
+                            <constraint firstItem="F6U-oA-03e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YQ7-fY-iyG"/>
+                            <constraint firstItem="nnK-qF-TAI" firstAttribute="centerX" secondItem="4im-xf-KT1" secondAttribute="centerX" id="Ydh-wH-vKU"/>
+                            <constraint firstItem="yoV-g1-7i9" firstAttribute="top" secondItem="aFc-eX-wSm" secondAttribute="bottom" constant="8" symbolic="YES" id="aa1-3Y-FHs"/>
+                            <constraint firstItem="yoV-g1-7i9" firstAttribute="leading" secondItem="bpX-Oh-NTo" secondAttribute="leading" id="bCo-Hc-bOC"/>
+                            <constraint firstItem="nnK-qF-TAI" firstAttribute="top" secondItem="bpX-Oh-NTo" secondAttribute="bottom" constant="8" symbolic="YES" id="cCR-Xj-SSD"/>
+                            <constraint firstItem="4im-xf-KT1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="gGO-Oq-oOx"/>
+                            <constraint firstItem="aFc-eX-wSm" firstAttribute="centerX" secondItem="4im-xf-KT1" secondAttribute="centerX" id="jGR-nO-uvS"/>
+                            <constraint firstItem="bpX-Oh-NTo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r3j-j3-F5A"/>
+                            <constraint firstItem="3RW-Fx-2TZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rqe-rJ-c9y"/>
+                            <constraint firstItem="4im-xf-KT1" firstAttribute="leading" secondItem="aFc-eX-wSm" secondAttribute="leading" id="v7f-9E-DKV"/>
+                            <constraint firstItem="bpX-Oh-NTo" firstAttribute="leading" secondItem="nnK-qF-TAI" secondAttribute="leading" id="zh2-po-X17"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="infoTextView" destination="3RW-Fx-2TZ" id="FMT-CC-8Qh"/>
+                        <outlet property="isbnTextField" destination="yoV-g1-7i9" id="URc-cu-iEZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="233" y="329"/>
         </scene>
     </scenes>
 </document>
